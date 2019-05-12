@@ -1,0 +1,25 @@
+body{
+    background-color: #f0f293
+  }
+  h1{
+    font-family: 'Rye', cursive;
+    color:#020849;
+    font-size: 90px;
+    line-height: 200%;
+    border-bottom-style: dotted;
+    text-align:center;
+}
+h3{
+    font-family: 'Rye', cursive;
+    color:#020849;
+    text-align: center;
+}
+audio{
+    display: none;
+}
+ .text{
+    font-family: 'Rye', cursive;
+     color: #484951;
+     font-size: 30px;
+
+ }
