@@ -3,7 +3,7 @@ var randomChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
     
         var win = 0;
         var loss = 0;
-       
+      
     
         
         
@@ -11,7 +11,7 @@ var randomChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
         var randomChoiceText = document.getElementById("randomChoice-text");
         var winText = document.getElementById("win-text");
         var lossText = document.getElementById("loss-text");
-        
+       
     
         
         document.onkeyup = function(event) {
@@ -36,6 +36,7 @@ var randomChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l",
             randomChoiceText.textContent = "The computer chose: " + computerChoice;
             winText.textContent = "WIN: " + win;
             lossText.textContent = "LOSS: " + loss;
+            
            
           
         };

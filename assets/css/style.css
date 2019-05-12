@@ -10,6 +10,7 @@ body{
     text-align:center;
 }
 h3{
+    font-size: 30px;
     font-family: 'Rye', cursive;
     color:#020849;
     text-align: center;
@@ -20,6 +21,16 @@ audio{
  .text{
     font-family: 'Rye', cursive;
      color: #484951;
-     font-size: 30px;
-
+     font-size: 26px;
+     padding: 10px;
+ }
+ .footer{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    padding:0;
+    line-height: 35px;
+    margin:0 auto;
+    text-align: center;
+  
  }
